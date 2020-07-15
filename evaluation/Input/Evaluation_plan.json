@@ -1,0 +1,428 @@
+﻿{
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
+    "Projects": [
+        {
+            "Id": "Montelukast",
+            "Path": "https://github.com/Open-Systems-Pharmacology/Montelukast-Model/releases/download/v1.1/Montelukast.json",
+            "BuildingBlocks": []
+        }
+    ],
+    "ObservedDataSets": [],
+    "Plots": {
+        "PlotSettings": {
+            "ChartWidth": 500,
+            "ChartHeight": 400,
+            "Fonts": {
+                "AxisSize": 11,
+                "LegendSize": 9,
+                "OriginSize": 9,
+                "FontFamilyName": "Arial",
+                "WatermarkSize": 40
+            }
+        },
+        "AxesSettings": {
+            "ComparisonTimeProfile": [
+                {
+                    "Unit": "h",
+                    "Dimension": "Time",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Unit": "µg/l",
+                    "Dimension": "Concentration (mass)",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsPredictedVsObserved": [
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsResidualsVsObserved": [
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                }
+            ],
+            "GOFMergedPlotsPredictedVsObserved": [
+                {
+                    "Unit": "µg/l",
+                    "Dimension": "Concentration (mass)",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "µg/l",
+                    "Dimension": "Concentration (mass)",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "GOFMergedPlotsResidualsOverTime": [
+                {
+                    "Unit": "h",
+                    "Dimension": "Time",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                }
+            ],
+            "PKRatioPlots": [
+                {
+                    "Unit": "year(s)",
+                    "Dimension": "Age",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ]
+        },
+        "AllPlots": [
+            {
+                "Project": "Montelukast",
+                "Simulation": "Cheng 1996 18mg IV",
+                "SectionId": 42
+            },
+            {
+                "Project": "Montelukast",
+                "Simulation": "Cheng 1996 3mg IV",
+                "SectionId": 42
+            },
+            {
+                "Project": "Montelukast",
+                "Simulation": "Cheng 1996 9mg IV",
+                "SectionId": 42
+            },
+            {
+                "Project": "Montelukast",
+                "Simulation": "Cheng 1996 9mg IV female",
+                "SectionId": 42
+            },
+            {
+                "Project": "Montelukast",
+                "Simulation": "Knorr 2000 10mg PO Chewable tablet",
+                "SectionId": 42
+            },
+            {
+                "Project": "Montelukast",
+                "Simulation": "Knorr 2000 2mg PO Chewable tablet",
+                "SectionId": 42
+            },
+            {
+                "Project": "Montelukast",
+                "Simulation": "Knorr 2000 5mg PO Chewable tablet",
+                "SectionId": 42
+            },
+            {
+                "Project": "Montelukast",
+                "Simulation": "Cheng 1996 10mg PO male",
+                "SectionId": 42
+            },
+            {
+                "Project": "Montelukast",
+                "Simulation": "Knorr 2000 10mg PO Filmcoated tablet",
+                "SectionId": 42
+            },
+            {
+                "Project": "Montelukast",
+                "Simulation": "Zhao 1997 PO young MD",
+                "SectionId": 42
+            },
+            {
+                "Project": "Montelukast",
+                "Simulation": "Fey 2014 4mg PO Sandoz oral granules (for reporting)",
+                "SectionId": 42
+            },
+            {
+                "Project": "Montelukast",
+                "Simulation": "Fey 2014 4mg PO Singular oral mini granules (for reporting)",
+                "SectionId": 42
+            }
+        ],
+        "GOFMergedPlots": [
+            {
+                "Title": "Goodness of fit plor for concentration in plasma.",
+                "SectionId": 41,
+                "Artifacts": [
+                    "Plot",
+                    "GMFE",
+                    "Measure"
+                ],
+                "PlotType": "predictedVsObserved|residualsOverTime",
+                "Groups": [
+                    {
+                        "Caption": "Montelukast iv",
+                        "Symbol": "Circle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Montelukast",
+                                "Simulation": "Cheng 1996 18mg IV",
+                                "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Cheng_1996 male 18mg iv",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Montelukast",
+                                "Simulation": "Cheng 1996 3mg IV",
+                                "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Cheng_1996 male 3mg iv",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Montelukast",
+                                "Simulation": "Cheng 1996 9mg IV",
+                                "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Cheng_1996 male 9mg iv",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Montelukast",
+                                "Simulation": "Cheng 1996 9mg IV female",
+                                "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Cheng 1996.Female.9 mg .IV 15min infusion.Figure 3",
+                                "Color": "#000000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Montelukast Fimcoated Tablet",
+                        "Symbol": "Diamond",
+                        "OutputMappings": [
+                            {
+                                "Project": "Montelukast",
+                                "Simulation": "Cheng 1996 10mg PO female",
+                                "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Cheng 1996.Female.10 mg .PO.Figure 3",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Montelukast",
+                                "Simulation": "Cheng 1996 10mg PO male",
+                                "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Cheng 1996.Male.10 mg.po",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Montelukast",
+                                "Simulation": "Knorr 2000 10mg PO Filmcoated tablet",
+                                "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Knorr 2000.10mg.PO.10mg Filmcoated tablet",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Montelukast",
+                                "Simulation": "Zhao 1997 PO young MD",
+                                "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Day1_Zhao_1997_pk and bioavailability of montelukas sodium (mk-0476) in healthy young and elderly volunteers",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Montelukast",
+                                "Simulation": "Zhao 1997 PO young MD",
+                                "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Day3-6_Zhao_1997_pk and bioavailability of montelukas sodium (mk-0476) in healthy young and elderly volunteers",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Montelukast",
+                                "Simulation": "Zhao 1997 PO young MD",
+                                "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Day7_Zhao_1997_pk and bioavailability of montelukas sodium (mk-0476) in healthy young and elderly volunteers 1",
+                                "Color": "#000000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Montelukast Chewable Tablet",
+                        "Symbol": "Square",
+                        "OutputMappings": [
+                            {
+                                "Project": "Montelukast",
+                                "Simulation": "Knorr 2000 10mg PO Chewable tablet",
+                                "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Knorr 2000.10mg .PO.10mg Chewable tablet",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Montelukast",
+                                "Simulation": "Knorr 2000 2mg PO Chewable tablet",
+                                "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Knorr 2000.2mg.po.2 mg Chewable tablet",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Montelukast",
+                                "Simulation": "Knorr 2000 5mg PO Chewable tablet",
+                                "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Knorr 2000.5mg.po.5mg Chewable tablet",
+                                "Color": "#000000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Montelukast Oral Granules",
+                        "Symbol": "Triangle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Montelukast",
+                                "Simulation": "Fey 2014 4mg PO Sandoz oral granules (for reporting)",
+                                "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Fey 2014 .Male.4mg.PO oral granules.Adult Sandoz  4mg granules (for reporting)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Montelukast",
+                                "Simulation": "Fey 2014 4mg PO Singular oral mini granules (for reporting)",
+                                "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Fey 2014 .Male.4mg.PO oral granules.Adullt Singular mini 4mg granules (for reporting)",
+                                "Color": "#000000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "ComparisonTimeProfilePlots": [],
+        "DDIRatioPlots": [],
+        "PKRatioPlots": []
+    },
+    "Inputs": [
+        {
+            "Project": "Montelukast",
+            "Name": "Montelukast",
+            "Type": "Compound",
+            "SectionId": 40
+        },
+        {
+            "Name": "Filmcoated tablet",
+            "Project": "Montelukast",
+            "Type": "Formulation",
+            "SectionId": 40
+        },
+        {
+            "Name": "Chewable tablet",
+            "Project": "Montelukast",
+            "Type": "Formulation",
+            "SectionId": 40
+        },
+        {
+            "Name": "Sandoz Oral granules",
+            "Project": "Montelukast",
+            "Type": "Formulation",
+            "SectionId": 40
+        },
+        {
+            "Name": "Singulair mini Oral granules",
+            "Project": "Montelukast",
+            "Type": "Formulation",
+            "SectionId": 40
+        }
+    ],
+    "Sections": [
+        {
+            "Id": 1,
+            "Title": "1 Introduction",
+            "Content": "Content/Section1_Introduction.md"
+        },
+        {
+            "Id": 2,
+            "Title": "2 Methods",
+            "Content": "Content/Section2_Methods.md",
+            "Sections": [
+                {
+                    "Id": 21,
+                    "Content": "Content/Section2.1_Modeling_Strategy.md",
+                    "Title": "2.1 Modeling strategy"
+                },
+                {
+                    "Id": 22,
+                    "Content": "Content/Section2.2_Data_used.md",
+                    "Title": "2.2 Data used"
+                },
+                {
+                    "Id": 23,
+                    "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md",
+                    "Title": "2.3 Model parameters and assumptions"
+                }
+            ]
+        },
+        {
+            "Id": 3,
+            "Content": "Content/Section3_Results_and_Discussion.md",
+            "Title": "3 Results and Discussion",
+            "Sections": [
+                {
+                    "Id": 40,
+                    "Content": "Content/Input_table.md",
+                    "Title": "3.1 Montelukast final input parameters"
+                },
+                {
+                    "Id": 41,
+                    "Content": "Content/GOF_diagnostics.md",
+                    "Title": "3.2 Montelukast Diagnostics Plots"
+                },
+                {
+                    "Id": 42,
+                    "Content": "Content/Concentration_time_profiles.md",
+                    "Title": "3.3 Montelukast Concentration-Time profiles"
+                }
+            ]
+        },
+        {
+            "Id": 4,
+            "Content": "Content/Section4_Conclusion.md",
+            "Title": "4 Conclusion"
+        },
+        {
+            "Id": 5,
+            "Content": "Content/References.md",
+            "Title": "5 References"
+        }
+    ],
+    "Intro": [
+        {
+            "Path": "Content/titlepage.md"
+        }
+    ]
+}
