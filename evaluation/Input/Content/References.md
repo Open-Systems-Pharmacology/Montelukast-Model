@@ -2,8 +2,6 @@
 
 **Drugbank.ca** (https://www.drugbank.ca/drugs/DB00471 )
 
-**Kuepfer 2016** Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied Concepts in PBPK Modeling: How to Build a PBPK/PD Model.CPT Pharmacometrics Syst Pharmacol. 2016 Oct;5(10):516-531. doi: 10.1002/psp4.12134. Epub 2016 Oct 19.
-
 **FDA drug label** (https://www.merck.com/product/usa/pi_circulars/s/singulair/singulair_pi.pdf)
 
 **Fey 2014** Fey C, Thyroff-Friesinger U, Jones S. Bioequivalence of two formulations of montelukast sodium 4 mg oral granules in healthy adults. Clin Transl Allergy. 2014 Sep 18;4:29. doi: 10.1186/2045-7022-4-29. eCollection 2014.
@@ -21,6 +19,8 @@
 **Knorr 2001** Knorr B, Nguyen HH, Kearns GL, Villaran C, Boza ML, Reiss TF, Rogers JD, Zhang J, Larson P, Spielberg S. Montelukast dose selection in children ages 2 to 5 years: comparison of population pharmacokinetics between children and adults. J Clin Pharmacol. 2001 Jun;41(6):612-9.
 
 **Knorr 2006** Knorr B, Maganti L, Ramakrishnan R, Tozzi CA, Migoya E, Kearns G. Pharmacokinetics and safety of montelukast in children aged 3 to 6 months. J Clin Pharmacol. 2006 Jun;46(6):620-7.
+
+**Kuepfer 2016** Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied Concepts in PBPK Modeling: How to Build a PBPK/PD Model.CPT Pharmacometrics Syst Pharmacol. 2016 Oct;5(10):516-531. doi: 10.1002/psp4.12134. Epub 2016 Oct 19.
 
 **Marzolini 2017** Marzolini C, Rajoli R, Battegay M, Elzi L, Back D, Siccardi M. Efavirenz Involving Simultaneous Inducing and Inhibitory Effects on Cytochromes. Clin Pharmacokinet. 2017 Apr;56(4):409-420. doi: 10.1007/s40262-016-0447-7.
 
