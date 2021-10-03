@@ -171,12 +171,12 @@
             },
             {
                 "Project": "Montelukast",
-                "Simulation": "Fey 2014 4mg PO Sandoz oral granules (for reporting)",
+                "Simulation": "Fey 2014 4mg PO Sandoz oral granules",
                 "SectionId": 42
             },
             {
                 "Project": "Montelukast",
-                "Simulation": "Fey 2014 4mg PO Singular oral mini granules (for reporting)",
+                "Simulation": "Fey 2014 4mg PO Singular oral mini granules",
                 "SectionId": 42
             }
         ],
@@ -199,28 +199,28 @@
                                 "Project": "Montelukast",
                                 "Simulation": "Cheng 1996 18mg IV",
                                 "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Cheng_1996 male 18mg iv",
+                                "ObservedData": "Cheng 1996 - 18mg IV male - Montelukast - iv - 18 mg - Plasma - agg. (n=9)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Montelukast",
                                 "Simulation": "Cheng 1996 3mg IV",
                                 "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Cheng_1996 male 3mg iv",
+                                "ObservedData": "Cheng 1996 - 3mg IV male - Montelukast - IV - 3 mg - Plasma - agg. (n=9)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Montelukast",
                                 "Simulation": "Cheng 1996 9mg IV",
                                 "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Cheng_1996 male 9mg iv",
+                                "ObservedData": "Cheng 1996 - 9mg IV male - Montelukast - iv - 9 mg - Plasma - agg. (n=9)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Montelukast",
                                 "Simulation": "Cheng 1996 9mg IV female",
                                 "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Cheng 1996.Female.9 mg .IV 15min infusion.Figure 3",
+                                "ObservedData": "Cheng 1996 - 9mg IV Female - Montelukast - iv - 9 mg - Plasma - agg. (n=9)",
                                 "Color": "#000000"
                             }
                         ]
@@ -233,42 +233,28 @@
                                 "Project": "Montelukast",
                                 "Simulation": "Cheng 1996 10mg PO female",
                                 "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Cheng 1996.Female.10 mg .PO.Figure 3",
+                                "ObservedData": "Cheng 1996 - 10mg PO Female - Montelukast - po - 10 mg - Plasma - agg. (n=9)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Montelukast",
                                 "Simulation": "Cheng 1996 10mg PO male",
                                 "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Cheng 1996.Male.10 mg.po",
+                                "ObservedData": "Cheng 1996 - 10mg PO male - Montelukast - po - 10 mg - Plasma - agg. (n=9)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Montelukast",
                                 "Simulation": "Knorr 2000 10mg PO Filmcoated tablet",
                                 "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Knorr 2000.10mg.PO.10mg Filmcoated tablet",
+                                "ObservedData": "Knorr 2000 - 10mg FCT - Montelukast - PO - 10 mg - Plasma - agg. (n=16)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Montelukast",
                                 "Simulation": "Zhao 1997 PO young MD",
                                 "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Day1_Zhao_1997_pk and bioavailability of montelukas sodium (mk-0476) in healthy young and elderly volunteers",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Montelukast",
-                                "Simulation": "Zhao 1997 PO young MD",
-                                "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Day3-6_Zhao_1997_pk and bioavailability of montelukas sodium (mk-0476) in healthy young and elderly volunteers",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Montelukast",
-                                "Simulation": "Zhao 1997 PO young MD",
-                                "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Day7_Zhao_1997_pk and bioavailability of montelukas sodium (mk-0476) in healthy young and elderly volunteers 1",
+                                "ObservedData": "Zhao 1997 - MD 10mg FCT - Montelukast - PO - 10 mg - Plasma - agg. (n=12)",
                                 "Color": "#000000"
                             }
                         ]
@@ -281,21 +267,21 @@
                                 "Project": "Montelukast",
                                 "Simulation": "Knorr 2000 10mg PO Chewable tablet",
                                 "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Knorr 2000.10mg .PO.10mg Chewable tablet",
+                                "ObservedData": "Knorr 2000 - 10mg PO CT - Montelukast - PO - 10 mg - Plasma - agg. (n=16)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Montelukast",
                                 "Simulation": "Knorr 2000 2mg PO Chewable tablet",
                                 "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Knorr 2000.2mg.po.2 mg Chewable tablet",
+                                "ObservedData": "Knorr 2000 - 2mg PO CT - Montelukast - PO - 2 mg - Plasma - agg. (n=16)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Montelukast",
                                 "Simulation": "Knorr 2000 5mg PO Chewable tablet",
                                 "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Knorr 2000.5mg.po.5mg Chewable tablet",
+                                "ObservedData": "Knorr 2000 - 5mg PO CT - Montelukast - PO - 5 mg - Plasma - agg. (n=16)",
                                 "Color": "#000000"
                             }
                         ]
@@ -306,16 +292,16 @@
                         "OutputMappings": [
                             {
                                 "Project": "Montelukast",
-                                "Simulation": "Fey 2014 4mg PO Sandoz oral granules (for reporting)",
+                                "Simulation": "Fey 2014 4mg PO Sandoz oral granules",
                                 "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Fey 2014 .Male.4mg.PO oral granules.Adult Sandoz  4mg granules (for reporting)",
+                                "ObservedData": "Fey 2014 - 4mg PO granules (Sandoz) - Montelukast - PO - 4 mg - Plasma - agg. (n=42)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Montelukast",
-                                "Simulation": "Fey 2014 4mg PO Singular oral mini granules (for reporting)",
+                                "Simulation": "Fey 2014 4mg PO Singular oral mini granules",
                                 "Output": "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Fey 2014 .Male.4mg.PO oral granules.Adullt Singular mini 4mg granules (for reporting)",
+                                "ObservedData": "Fey 2014 - 4mg PO granules (Singular) - Montelukast - PO - 4 mg - Plasma - agg. (n=42)",
                                 "Color": "#000000"
                             }
                         ]
