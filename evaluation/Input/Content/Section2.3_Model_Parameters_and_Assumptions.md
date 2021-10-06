@@ -11,4 +11,3 @@ After testing the available organ-plasma partition coefficient and cell permeabi
 ### 2.3.3 Metabolism and Elimination
 
 Montelukast is mainly metabolized by CYP2C8 (72%) ([Marzolini 2017](#5-references)).  The final montelukast model applies metabolism by CYP2C8, and minor involved enzymes CYP3A4/5 (16%) CYP2C9 (12%) and glomerular filtration ([Marzolini 2017, Filppula 2011, Zhou 2017](#5-references)) and adequately described the pharmacokinetics of montelukast in adults.
-
