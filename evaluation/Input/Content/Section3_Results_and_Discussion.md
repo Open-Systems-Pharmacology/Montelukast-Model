@@ -1,4 +1,4 @@
-The PBPK model for **montelukast** was developed with clinical pharmacokinetic data covering intravenous as well as oral administration with a dose range of 2-10mg including single dose and multiple dose clinical data, for different types of tablet formulations.
+The PBPK model for montelukast was developed with clinical pharmacokinetic data covering intravenous as well as oral administration with a dose range of 2-10mg including single dose and multiple dose clinical data, for different types of tablet formulations.
 
 During the model fitting, the following parameters were estimated (all other parameters were fixed to reported values):
 
